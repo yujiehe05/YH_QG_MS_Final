@@ -1,9 +1,9 @@
 # Trash Classification Using Convolutional Neural Networks
 Member: Yujie He, Qinyue Gu, and Maoguo Shi.
 
-Dataset: We use TrashNet collected by Gary Thung and Mindy Yang, which can be accessed here: https://github.com/garythung/trashnet. 
+Dataset: We used TrashNet collected by Gary Thung and Mindy Yang, which can be accessed here: https://github.com/garythung/trashnet. 
 
-Model Structure: We use a modified AlexNet architecture with two convolutional layers of 384 filters taken out. We developed our model following lecture slides on course website, and add normalization following this website: https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637. We also consult the above website on adding dropout.
+Model Structure: We used a modified AlexNet architecture with two convolutional layers of 384 filters taken out. We developed our model following lecture slides on Coursera, and added normalization following this website: https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637. We also consulted the above website on adding dropout.
 
 AlexCE_Plain contains our code for plain model with Softmax classifier in the last fully connected layer. 
 AlexCE_Aug contains our code for model with Softmax classifier adding data augmentation and partial data augmentation.
@@ -15,7 +15,7 @@ AlexHinge_Drop contains our code for model with SVM classifier adding dropout ra
 1. https://github.com/keras-team/keras/issues/2588
 2. https://stackoverflow.com/questions/53019301/add-svm-to-last-layer
 
-We also consulted the following websites for technical details in our code:
+We also consulted the following websites for technical details in our codes:
 1. https://matplotlib.org/gallery/api/two_scales.html
 2. https://stackoverflow.com/questions/42504652/how-to-update-tensorflow-on-mac
 3. https://stackoverflow.com/questions/48608776/how-to-suppress-tensorflow-warning-displayed-in-result
