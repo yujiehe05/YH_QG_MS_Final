@@ -1,5 +1,5 @@
 # Trash Classification Using Convolutional Neural Networks
-Spring 2020 CS230 Project code of Yujie He, Qinyue Gu, and Maoguo Shi.
+Member: Yujie He, Qinyue Gu, and Maoguo Shi.
 
 Dataset: We use TrashNet collected by Gary Thung and Mindy Yang, which can be accessed here: https://github.com/garythung/trashnet. 
 
