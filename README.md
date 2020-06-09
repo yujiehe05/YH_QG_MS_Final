@@ -15,6 +15,8 @@ AlexHinge_Drop contains our code for model with SVM classifier adding dropout ra
 1. https://github.com/keras-team/keras/issues/2588
 2. https://stackoverflow.com/questions/53019301/add-svm-to-last-layer
 
+graphs file contains code we used to plot our results.
+
 We also consulted the following websites for technical details in our codes:
 1. https://matplotlib.org/gallery/api/two_scales.html
 2. https://stackoverflow.com/questions/42504652/how-to-update-tensorflow-on-mac
